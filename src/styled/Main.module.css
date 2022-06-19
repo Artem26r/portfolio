@@ -1,0 +1,33 @@
+.spanTitleRed {
+    color: #C51645;
+}
+.imgMainRightBlock {
+    background: white;
+    max-height: 18rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.imgMainRightBlock img {
+    max-width: 21rem;
+}
+.linkImg img {
+    width: 2.8rem;
+    margin-right: 1.4rem;
+}
+.socialBlock {
+    margin-top: 2rem;
+}
+@media (max-width: 899px) {
+    .blockColumn {
+        flex-direction: column !important;
+        padding: 2rem 0 !important;
+    }
+    .textBlockMob {
+        max-width: 100% !important;
+    }
+    .photoMobile {
+        display: none;
+    }
+}
