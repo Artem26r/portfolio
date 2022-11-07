@@ -15,8 +15,6 @@
     border-radius: 0.5rem;
     margin: 1rem 0;
     background: #282b30;
-    box-shadow: inset 5px 5px 10px #1f2125,
-    inset -5px -5px 10px #31353b;
     padding: 0 2rem;
     text-align: left;
 }
