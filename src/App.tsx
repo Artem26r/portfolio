@@ -9,8 +9,8 @@ const Stack = [
   {id: v1(), title: 'JavaScript', description: 'Рефакторинг существующего кода, переход с JQ на нативный js', src: 'js.svg'},
   {id: v1(), title: 'HTML', description: 'Адаптивная, валидная, кросс-браузерная верстка', src: 'html.svg'},
   {id: v1(), title: 'CSS', description: 'Разработка анимаций, работа с SVG', src: 'css.svg'},
-  {id: v1(), title: 'React', description: 'Не коммерческий опыт', src: 'react.svg'},
-  {id: v1(), title: 'TypeScript', description: 'Не коммерческий опыт', src: 'ts.svg'},
+  {id: v1(), title: 'React', description: 'Функциональные компоненты', src: 'react.svg'},
+  {id: v1(), title: 'TypeScript', description: 'Типизация', src: 'ts.svg'},
   {id: v1(), title: 'ECMAScript 6', description: 'Рефакторинг существующего кода', src: 'es6.svg'}
 ]
 
