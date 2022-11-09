@@ -18,21 +18,7 @@ export const StackCards = (props:PropsType) => {
         <Grid container
               padding={'3rem 0'}
               className={style.blockMobile}>
-            <h2 className={style.StackCardsTitle}>Мой <span>стэк</span></h2>
-            <Grid container
-                  justifyContent={'space-between'}>
-                {
-                    props.Stack.map(el => {
-                        return (
-                            <div className={style.StackCardsItems} key={el.id}>
-                                <img src={el.src} alt=""/>
-                                <div className={style.StackCardsItemsTitle}>{el.title}</div>
-                                <div>{el.description}</div>
-                            </div>
-                        )
-                    })
-                }
-            </Grid>
+
         </Grid>
     );
 };
