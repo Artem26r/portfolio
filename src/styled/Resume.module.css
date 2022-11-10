@@ -1,0 +1,29 @@
+.img {
+    border: 1px solid #BBBBB9;
+    border-radius: 16px;
+    width: 186px;
+    height: 186px;
+    margin-bottom: 16px;
+}
+.block {
+    max-width: 600px;
+    text-align: left;
+    color: white;
+    letter-spacing: 1.2px;
+}
+.block h2 {
+    font-size: 40px;
+    margin: 32px 0 16px;
+}
+.block p {
+    font-size: 16px;
+}
+.block span {
+    color: #18B7D4;
+}
+.block a {
+    display: block;
+    color: #18B7D4;
+    text-decoration: none;
+    line-height: 30px;
+}
