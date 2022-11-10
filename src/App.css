@@ -2,6 +2,9 @@
 #root {
   font-family: 'Fira Sans', sans-serif;
 }
+* {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   margin: 6rem auto;
