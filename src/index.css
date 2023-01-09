@@ -1,21 +1,16 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  transition: .1s;
+  transition: all .1s;
 }
 
 :root {
-  --main-color: #0079FF;
+  --main-color: #18B7D4;
   --main-color-hover: #60ABFF;
 
-  --white: #FFF;
+  --white: #F5F5F5;
 
-  --gray-50: #F6F8FF;
-  --gray-100: #697C9A;
-  --gray-200: #4B6A9B;
-  --gray-300: #2B3442;
-  --gray-400: #1E2A47;
-  --gray-500: #141D2F;
+  --black: #282828;
 
   --error-color: #F74646;
 
@@ -32,7 +27,10 @@ body {
 }
 
 body[data-theme='dark'] {
-  background-color: var(--gray-500);
+  background-color: var(--black);
+}
+body[data-theme='light'] {
+  background-color: var(--white);
 }
 
 a {
