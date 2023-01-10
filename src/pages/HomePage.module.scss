@@ -1,0 +1,13 @@
+:global {
+    body[data-theme="light"] {
+        --text-color: var(--black)
+    }
+    body[data-theme="dark"] {
+        --text-color: var(--white)
+    }
+}
+
+.homePage {
+    max-width: 762px;
+    color: var(--text-color);
+}

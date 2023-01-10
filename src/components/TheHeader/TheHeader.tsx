@@ -4,8 +4,6 @@ import styles from "./TheHeader.module.scss";
 
 export const TheHeader = () => {
 
-  let activeClassName = styles.active;
-
   return (
     <div className={styles.theHeader}>
       <span className={styles.logo}>Артём Кравец</span>
@@ -13,7 +11,7 @@ export const TheHeader = () => {
         <nav className={styles.nav}>
           <NavLink
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? styles.active : undefined
             }
             to="/"
           >
@@ -21,19 +19,19 @@ export const TheHeader = () => {
           </NavLink>
           <NavLink
             className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }
-            to="/dashboard"
-          >
-            Дашборд
-          </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
+              isActive ? styles.active : undefined
             }
             to="/works"
           >
             Проекты
+          </NavLink>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles.active : undefined
+            }
+            to="/dashboard"
+          >
+            Дашборд
           </NavLink>
         </nav>
         <ThemeSwitcher />

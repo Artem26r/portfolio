@@ -1,0 +1,25 @@
+:global {
+  body[data-theme="light"] {
+    --link-color: var(--black);
+  }
+  body[data-theme="dark"] {
+    --link-color: var(--white);
+  }
+}
+
+.contactLink {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+  color: var(--link-color);
+  @media (max-width: 480px) {
+    font-size: 16px;
+  }
+
+  span {
+    color: var(--main-color);
+  }
+}

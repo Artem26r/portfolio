@@ -1,1 +1,10 @@
-.themeSwitcher {}
+.themeSwitcher {
+  cursor: pointer;
+  display: flex;
+
+  @media (max-width: 480px) {
+    position: absolute;
+    right: 0;
+    top: -50px;
+  }
+}

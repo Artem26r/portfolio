@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 #root {
-  font-family: 'Fira Sans';
+  font-family: 'JetBrains Mono', monospace;
 }
 * {
   box-sizing: border-box;

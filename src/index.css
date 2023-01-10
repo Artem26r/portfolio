@@ -18,6 +18,7 @@
   
 }
 
+
 body {
   font-family: 'Space Mono', monospace;
   font-weight: 400;
@@ -25,7 +26,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--gray-50);
 }
-
+body::-webkit-scrollbar {
+  width: 2px; 
+}
+body::-webkit-scrollbar-track {
+  background: none;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #18B7D4;
+  border-radius: 20px;
+}
 body[data-theme='dark'] {
   background-color: var(--black);
 }
