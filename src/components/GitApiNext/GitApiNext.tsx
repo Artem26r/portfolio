@@ -15,9 +15,9 @@ export const GitApiNext = ({
 }: GitApiNextProps) => (
   <div className={styles.gitApiNext}>
     <div>
-      <div>{count}</div>
-      <div>{title}</div>
+      <div className={styles.count}>{count}</div>
+      <div className={styles.title}>{title}</div>
     </div>
-    <a href={url}>{linkName}</a>
+    <a className={styles.link} href={url}>{linkName}</a>
   </div>
 );

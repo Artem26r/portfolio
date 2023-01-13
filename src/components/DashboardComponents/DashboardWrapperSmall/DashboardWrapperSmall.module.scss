@@ -3,7 +3,10 @@
   height: 88px;
   border: 1px solid #bbbbb9;
   border-radius: 16px;
-  padding: 32px;
+  padding: 24px;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 .sm-1 {
   grid-area: sm1;

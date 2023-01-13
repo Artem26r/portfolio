@@ -1,1 +1,10 @@
-.skillsDashboard {}
+.skillsDashboard {
+    :first-child {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    :last-child {
+        color: #bbbbb9;
+        font-size: 18px;
+    }
+}

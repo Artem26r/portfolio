@@ -36,7 +36,7 @@ export const Dashboard = () => {
       </DashboardWrapperMedium>{" "}
       <DashboardWrapperMedium classNameGrid={"md-3"}>
         <GitApiNext
-          count={22}
+          count={16}
           title="Репозитории"
           linkName="Git"
           url="https://github.com/Artem26r"
@@ -44,46 +44,46 @@ export const Dashboard = () => {
       </DashboardWrapperMedium>
       <DashboardWrapperMedium classNameGrid={"md-4"}>
         <GitApiNext
-          count={22}
+          count={2}
           title="Звезды"
           linkName="Git"
           url="https://github.com/Artem26r"
         />
       </DashboardWrapperMedium>
       <DashboardWrapperBig classNameGrid={"lg-2"}>
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
+        <SkillsDashboard title="JavaScript" disc="ECMAScript 6" />
+        <SkillsDashboard title="HTML" disc="Валидная верстка" />
+        <SkillsDashboard title="CSS" disc="Sass/modules/MUI" />
+        <SkillsDashboard title="SEO" disc="Семантическая верстка" />
       </DashboardWrapperBig>
       <DashboardWrapperBig classNameGrid={"lg-3"}>
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
-        <SkillsDashboard title="JS" disc="TS" />
+        <SkillsDashboard title="React" disc="Функциональный" />
+        <SkillsDashboard title="Redux" disc="RTK" />
+        <SkillsDashboard title="TypeScript" disc="Not commercial" />
+        <SkillsDashboard title="Git" disc="Git Bash" />
       </DashboardWrapperBig>
       <DashboardWrapperSmall classNameGrid={"sm-1"}>
         <LinksDashboard
-          url="https://www.behance.net/artemkrave2003"
-          linkName="Behance"
+          url="https://github.com/Artem26r"
+          linkName="Git"
         />
       </DashboardWrapperSmall>
       <DashboardWrapperSmall classNameGrid={"sm-2"}>
         <LinksDashboard
-          url="https://www.behance.net/artemkrave2003"
-          linkName="Behance"
+          url="mailto:artem.kravetz@gmail.com"
+          linkName="Email"
         />
       </DashboardWrapperSmall>
       <DashboardWrapperSmall classNameGrid={"sm-3"}>
         <LinksDashboard
-          url="https://www.behance.net/artemkrave2003"
-          linkName="Behance"
+          url="https://www.linkedin.com/in/artem-kr"
+          linkName="Linkedin"
         />
       </DashboardWrapperSmall>
       <DashboardWrapperSmall classNameGrid={"sm-4"}>
         <LinksDashboard
-          url="https://www.behance.net/artemkrave2003"
-          linkName="Behance"
+          url="https://t.me/akerror"
+          linkName="Telegram"
         />
       </DashboardWrapperSmall>
     </div>

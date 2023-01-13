@@ -3,14 +3,24 @@
   height: 390px;
   border: 1px solid #bbbbb9;
   border-radius: 16px;
-  padding: 32px;
+  padding: 24px;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 .lg-1 {
   grid-area: lg1;
 }
 .lg-2 {
   grid-area: lg2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 .lg-3 {
   grid-area: lg3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
