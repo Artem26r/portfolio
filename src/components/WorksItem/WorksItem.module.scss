@@ -30,6 +30,11 @@
 .worksItem:hover {
   border: 1px solid var(--main-color);
 }
+@media(max-width: 600px) {
+  .worksItem:hover {
+    border: 1px solid #bbbbb9;
+  }
+}
 
 .worksItemTxt {
   .itemTxtName {

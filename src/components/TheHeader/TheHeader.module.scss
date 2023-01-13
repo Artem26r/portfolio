@@ -67,6 +67,11 @@
   nav a:hover {
     border: 1px solid var(--main-color);
   }
+  @media (max-width: 600px) {
+    nav a:hover {
+      border: 1px solid #bbbbb9;
+    }
+  }
   .active {
     color: var(--white);
     background: var(--main-color);
