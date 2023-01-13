@@ -1,9 +1,15 @@
 .linksDashboard {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--main-color);
-    text-decoration: none;
-    font-size: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-color);
+  text-decoration: none;
+  font-size: 24px;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+}
+.linksDashboard:last-child {
+    margin-bottom: 1px;
 }

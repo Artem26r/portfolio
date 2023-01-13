@@ -4,7 +4,6 @@ import styles from "./Works.module.scss";
 export const Works = () => {
   return (
     <>
-      <div className={styles.title}>Мои проекты</div>
       <div className={styles.worksPage}>
         <WorksItem
           name="Countries SPA"

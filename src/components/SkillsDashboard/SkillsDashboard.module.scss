@@ -1,10 +1,17 @@
 .skillsDashboard {
-    :first-child {
-        font-size: 24px;
-        margin-bottom: 8px;
+  :first-child {
+    font-size: 24px;
+    margin-bottom: 8px;
+    @media (max-width: 600px) {
+      font-size: 20px;
+      margin-bottom: 4px;
     }
-    :last-child {
-        color: #bbbbb9;
-        font-size: 18px;
-    }
+  }
+  :last-child {
+    color: #bbbbb9;
+    font-size: 14px;
+  }
+  @media (max-width: 600px) {
+    margin-bottom: 16px;
+  }
 }
