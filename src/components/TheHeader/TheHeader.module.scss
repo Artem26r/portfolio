@@ -47,6 +47,10 @@
 
     border: 1px solid #bbbbb9;
 
+    &:hover {
+      border: 1px solid var(--main-color);
+    }
+
     @media (max-width: 1124px) {
       font-size: 16px;
       padding: 12px 26px;
@@ -63,9 +67,6 @@
     @media (max-width: 360px) {
       padding: 8px 12px;
     }
-  }
-  nav a:hover {
-    border: 1px solid var(--main-color);
   }
   @media (max-width: 600px) {
     nav a:hover {

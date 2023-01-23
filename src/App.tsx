@@ -1,6 +1,5 @@
 import { HomePage } from "pages/HomePage";
 import { Routes, Route } from "react-router-dom";
-import React from "react";
 import "./App.css";
 import { TheHeader } from "components/TheHeader";
 import { Dashboard } from "pages/Dashboard";
