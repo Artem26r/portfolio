@@ -12,7 +12,7 @@ export const Dashboard = () => {
     <div className={styles.dashboard}>
       <DashboardWrapperBig classNameGrid={"lg-1"}>
         <BehanceStaticFyApiAdobe
-          count={734}
+          count={735}
           title="Просмотры"
           linkName="Behance"
           url="https://www.behance.net/artemkrave2003"
